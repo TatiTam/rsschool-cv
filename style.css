@@ -1,0 +1,144 @@
+@font-face{
+    font-family: DM Sans;
+    src: url("./assets/fonts/DMSans-Medium.ttf");
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: DM Sans;
+    src: url("./assets/fonts/DMSans-Regular.ttf");
+    font-weight: 100;
+}
+
+@media(max-width:768px){
+    .section{
+        width: 100%;
+    }
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #09A1A1;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #664229;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    float: left;
+    font-size: large;
+}
+
+.nav-link{
+    padding: 0 20px;
+    line-height: 50;
+    transition: .3s;
+}
+
+.nav-item a{
+    color: #09A1A1;
+    text-decoration: none;
+    transition: color 0.5s;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.nav-item a:hover{
+    color: #FFEBC3;
+}
+
+.e-mail{
+    text-decoration: none;
+    color: #09A1A1;
+    transition: color 0.5s;
+}
+
+.e-mail:hover{
+    color: #FFEBC3;
+}
+
+.github{
+    text-decoration: none;
+    color: #09A1A1;
+    transition: color 0.5s;
+}
+
+.github:hover{
+    color: #FFEBC3;
+}
+
+.section{
+    width: 100%;
+}
+
+.section-title{
+    color: #0E606E;
+}
+
+.tab{
+    margin-left: 40px;
+}
+
+.image{
+    border-radius: 20px;
+}
+
+hr{
+    border: none;
+    border-color: #09A1A1;
+    height: 2px;
+}
+
+.footer{
+    background-color:  #09A1A1;
+    padding: 30px 0 24px;
+    color: #0E606E;
+}
+
+.footer-menu-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.footer-menu-link{
+    text-decoration: none;
+    color: #0E606E;
+}
+
+.footer-item{
+    font-size: 24px;
+    font-weight: 400;
+    list-style: none;
+    text-decoration: none;
+    color: #0E606E;
+    transition: color 0.5s;
+}
+
+.footer-item:hover{
+    color: #FFEBC3;
+}
